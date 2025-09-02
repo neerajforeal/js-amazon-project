@@ -46,7 +46,7 @@ export function addToCart(productId) {
   saveToStorage();
 }
 
-export function removeCart(productId) {
+export function removeFromCart(productId) {
   const newCart = [];
 
   cart.forEach((cartItem) => {
